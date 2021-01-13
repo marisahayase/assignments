@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3, h4 {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.barryContainer {
+    background-image: url("images/barryimage.jpg");
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+}
+
+.heroContainer h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.loveContainer {
+    position: absolute;
+    top: 16vh;
+    left: 10vw;
+}
+
+.loveContainer h2 {
+    animation-name: vanessaspin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: yellow;
+}
+
+@keyframes vanessaspin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.scriptContainer {
+    column-count: 2;
+    column-gap: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-bottom: 2rem;
+}
+
+.pullQuote {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.75rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.castContainer {
+    text-align: center;
+
+}
+
+.cropContainer {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.castCard {
+    display: inline-block;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+.castCard img {
+    width: 300px;
+
+}
+
+.castCard h4 {
+    padding-top: 1rem;
+}
